@@ -39,11 +39,11 @@ variable "private_subnet" {
 
 
 variable "key_name" {
-  default = "Project-GMR"
+  default = "chaitanya-key"
 }
 
 variable "secret_name" {
-  default = "Project-GMR-01"
+  default = "chaitanya-sn"
 }
 
 
@@ -53,7 +53,7 @@ variable "domain_name" {
 }
 
 variable "subdomain_name" {
-  default = "Raj"
+  default = "chaitu"
 }
 
 

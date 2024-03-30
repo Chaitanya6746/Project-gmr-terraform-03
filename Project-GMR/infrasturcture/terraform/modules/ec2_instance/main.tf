@@ -17,7 +17,7 @@ resource "aws_instance" "ubuntu" {
   tags = merge(
     var.common_tags,
     {
-      "Name" = "Project-GMR"
+      "Name" = "chaitanya-ec2"
     }
   )
 }

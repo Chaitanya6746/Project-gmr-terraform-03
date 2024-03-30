@@ -1,5 +1,5 @@
 resource "aws_lb" "my_lb" {
-  name               = "gmr-alb"
+  name               = "chaitu-lb"
   internal           = false
   load_balancer_type = "application"
   security_groups    = var.security_group_id
@@ -9,7 +9,7 @@ resource "aws_lb" "my_lb" {
 }
 
 resource "aws_lb_target_group" "my_tg" {
-  name     = "my-tg"
+  name     = "chaitu-tg"
   port     = 80
   protocol = "HTTP"
   vpc_id   = var.vpc_id

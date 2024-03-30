@@ -20,10 +20,10 @@ cd /usr/share/nginx/
 sudo rm -rf html
 
 # Clone the Git repository
-sudo git clone https://github.com/INDALARAJESH/project-GMR-01.git
+sudo git clone https://github.com/Chaitanya6746/StaticWebPage.git
 
 # Move the cloned directory to the web server directory
-sudo mv project-GMR-01 html
+sudo mv StaticWebPage html
 
 # Restart Nginx to apply changes
 sudo systemctl restart nginx
